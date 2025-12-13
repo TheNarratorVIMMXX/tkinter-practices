@@ -12,18 +12,20 @@
 # -----------------------------------------------------------------------------------------------------------------------------------------
 """ ======================================================== Módulos Importados ============================================================= """
 
-import tkinter as tk                # Framework Básico para Interfaz Gráfica
-from tkinter import messagebox      # Módulo para Mensajes Emergentes
+# Dependencias
+from typing import Literal                                                                                     # Tipos Literales
+from tkinter import messagebox                                                                                 # Mensajes de Diálogo
+import tkinter as tk                                                                                           # Framework Básico para Interfaz Gráfica
 
 # -----------------------------------------------------------------------------------------------------------------------------------------
 """ ======================================================== Funciones Helpers ============================================================ """
 
-# Función Helper: Presionar Botón
-def press_button(value: str) -> None:
+# Función: Presionar Botón
+def press_button(value: Literal["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", ".", "+", "-", "*", "/", "(", ")"]) -> None:
     
     """
        - Función: Presionar Botón
-       - Argumentos: Valor Presionado (str)
+       - Argumentos: Valor Presionado (Literal["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", ".", "+", "-", "*", "/", "(", ")"])
        - Retorno: Ninguno
        - Objetivo: Añadir el Valor Presionado a la Expresión y Actualizar la Pantalla
     """
@@ -34,16 +36,15 @@ def press_button(value: str) -> None:
     elif value not in "0123456789.+-*/()":
         raise ValueError("El Valor Presionado debe ser un Número o un Operador Válido (+, -, *, /, ., (, )).")
 
-
     # Añadir el valor presionado a la expresión
-    global expression                              # Variable Global para la Expresión
-    expression = expression + value                # Concatenar el Valor Presionado a la Expresión
-    screen.config(text = expression)             # Actualizar Pantalla con la Nueva Expresión
+    global expression                                                                                          # Variable Global Expresión
+    expression = expression + value                                                                            # Unir Valor Presionado a Expresión
+    screen.config(text = expression)                                                                           # Actualizar Pantalla con Expresión
 
 
 
 
-# Función Helper: Limpiar Pantalla
+# Función: Limpiar Pantalla
 def clean_screen() -> None:
 
     """
@@ -54,14 +55,14 @@ def clean_screen() -> None:
     """
 
     # Limpiar la Expresión
-    global expression             # Declarar Variable Global
-    expression = ""               # Reiniciar la Expresión
-    screen.config(text = "0")     # Actualizar pantalla a "0"
+    global expression                                                                                          # Declarar Variable Global
+    expression = ""                                                                                            # Reiniciar la Expresión
+    screen.config(text = "0")                                                                                  # Actualizar pantalla a "0"
 
 
 
 
-# Función Helper: Borrar Último Carácter
+# Función: Borrar Último Carácter
 def erase_last_char():
     
     """
@@ -72,14 +73,14 @@ def erase_last_char():
     """
     
     # Borrar el Ultimo Carácter de la Expresión
-    global expression                                                                     # Declarar Variable Global
-    expression = expression[:-1]                                                          # Eliminar el Último Carácter de la Expresión
-    screen.config(text = expression) if expression != "" else screen.config(text = "0")   # Actualizar Pantalla o Mostrar "0" si está vacía
+    global expression                                                                                          # Declarar Variable Global
+    expression = expression[:-1]                                                                               # Eliminar Último Carácter
+    screen.config(text = expression) if expression != "" else screen.config(text = "0")                        # Actualizar Pantalla 
     
 
 
 
-# Función Helper: Calcular Resultado
+# Función: Calcular Resultado
 def calcule_result():
     
     """
@@ -90,54 +91,54 @@ def calcule_result():
     """
     
     # Calcular el Resultado de la Expresión
-    global expression                                                          # Declarar Variable Global
-    try:                                                                       # Bloque de Validación para el Cálculo
-        resultado = str(eval(expression))                                      # Evaluar str como Código de Python y Convertir a str
-        screen.config(text = resultado)                                        # Actualizar Pantalla con el Resultado
-        expression = resultado                                                 # Actualizar la Expresión con el Resultado
-    except (Exception, tk.TclError):                                           # Capturar Errores de Evaluación o Errores de Tkinter
-        messagebox.showerror(title = "Error", message = "Expresión Inválida")  # Mostrar Mensaje de Error
-        expression = ""                                                        # Reiniciar la Expresión
-        screen.config(text = "0")                                              # Actualizar Pantalla a "0"
+    global expression                                                                                          # Declarar Variable Global
+    try:                                                                                                       # Bloque de Validación para Cálculo
+        resultado = str(eval(expression))                                                                      # Evaluar str como Código Python
+        screen.config(text = resultado)                                                                        # Actualizar Pantalla
+        expression = resultado                                                                                 # Actualizar la Expresión
+    except (Exception, tk.TclError):                                                                           # Captura de Erorres
+        messagebox.showerror(title = "Error", message = "Expresión Inválida")                                  # Mostrar Mensaje de Error
+        expression = ""                                                                                        # Reiniciar la Expresión
+        screen.config(text = "0")                                                                              # Actualizar Pantalla a "0"
 
 # ------------------------------------------------------------------------------------------------------------------------------------------
 """ =========================================================== Práctica 14 ================================================================ """
 
 # Configuración de la Ventana
-window = tk.Tk()                             # Creación de la Ventana Principal
-window.geometry("320x450")                   # Dimensiones de la Ventana
-window.title("Calculadora Básica")           # Título de la Ventana
-window.configure(bg = "#040505")           # Color de Fondo de la Ventana
-window.resizable(False, False)               # Deshabilitar Redimensionamiento
+window = tk.Tk()                                                                                               # Creación Ventana Principal
+window.geometry("320x450")                                                                                     # Dimensiones de la Ventana
+window.title("Calculadora Básica")                                                                             # Título de la Ventana
+window.configure(bg = "#040505")                                                                             # Color de Fondo de Ventana
+window.resizable(False, False)                                                                                 # Quitar Redimensionamiento
 
 
 # Variables Globales y Colores
-expression = ""                              # Expresión Actual
-num_color = "#4a5f7f"                      # Color de Números
-operator_color = "#e67e22"                 # Color de Operadores
-special_color = "#e74c3c"                  # Color de Botones Especiales
-equal_color = "#27ae60"                    # Color del Botón Igual
-text_color = "white"                         # Color del Texto
+expression = ""                                                                                                # Expresión Actual
+num_color = "#4a5f7f"                                                                                        # Color: Números
+operator_color = "#e67e22"                                                                                   # Color: Operadores
+special_color = "#e74c3c"                                                                                    # Color: Botones Especiales
+equal_color = "#27ae60"                                                                                      # Color: Botón Igual
+text_color = "white"                                                                                           # Color: Texto
 
 
 # Label para Pantalla
-screen = tk.Label(                           # Etiqueta para la Pantalla
+screen = tk.Label(                                                                                             # Etiqueta para la Pantalla
     
-    master = window,                         # Ventana Principal
-    text = "0",                              # Texto Inicial
-    font = ("Arial", 20, "bold"),            # Fuente
-    bg = "#34495e",                        # Color de fondo
-    fg = "white",                            # Color de texto
-    anchor = "e",                            # Alineado a la Derecha ( e = east)
-    padx = 10, pady = 10                     # Espaciado Interno (Padding)                          
+    master = window,                                                                                           # Ventana Principal
+    text = "0",                                                                                                # Texto Inicial
+    font = ("Arial", 20, "bold"),                                                                              # Fuente
+    bg = "#34495e",                                                                                          # Color de fondo
+    fg = "white",                                                                                              # Color de texto
+    anchor = "e",                                                                                              # Alineado Derecha (e: east)
+    padx = 10, pady = 10                                                                                       # Espaciado Interno (Padding)                          
 
 )
-screen.grid(                               # Colocación en la Cuadrícula
+screen.grid(                                                                                                   # Colocación en la Cuadrícula
     
-    row = 0, column = 0,                     # Fila 0, Columna 0
-    columnspan = 4,                          # Ocupa 4 Columnas
-    padx = 10, pady = 15,                    # Espaciado Externo (Padding)
-    sticky = "ew"                            # Expandirse Horizontalmente (east-west)
+    row = 0, column = 0,                                                                                       # Fila 0, Columna 0
+    columnspan = 4,                                                                                            # Ocupa 4 Columnas
+    padx = 10, pady = 15,                                                                                      # Espaciado Externo (Padding)
+    sticky = "ew"                                                                                              # Expandirse Horizontalmente (east-west)
     
 )
 
@@ -156,7 +157,7 @@ buttons = [
     ("5", 2, 1, lambda: press_button("5"), num_color),
     ("6", 2, 2, lambda: press_button("6"), num_color),
     ("*", 2, 3, lambda: press_button("*"), operator_color),
-    
+     
     # Fila 3
     ("1", 3, 0, lambda: press_button("1"), num_color),
     ("2", 3, 1, lambda: press_button("2"), num_color),
@@ -164,7 +165,7 @@ buttons = [
     ("-", 3, 3, lambda: press_button("-"), operator_color),
     
     # Fila 4
-    ("0", 4, 0, lambda: press_button("0"), num_color),
+    ("0", 4, 0, lambda: press_button("0"), num_color), 
     (".", 4, 1, lambda: press_button("."), num_color),
     ("C", 4, 2, clean_screen, special_color),
     ("+", 4, 3, lambda: press_button("+"), operator_color),
@@ -177,26 +178,22 @@ buttons = [
 
 ]
 
+
 # Creación y Colocación de Botones
-for (text, row, column, command, color) in buttons:       # Iterar sobre la Lista de Botones
-    boton = tk.Button(                                    # Crear Botón
+for (text, row, column, command, color) in buttons:                                                            # Iterar Lista de Botones
+    boton = tk.Button(                                                                                         # Crear Botón 
 
-        master = window,                                   # Ventana Principal
-        text = text,                                       # Texto del Botón
-        command = command,                                 # Comando al Presionar
-        bg = color,                                        # Color de Fondo
-        fg = text_color,                                   # Color del Texto
-        font = ("Arial", 16, "bold"),                      # Fuente
-        width = 5, height = 2,                             # Dimensiones del Botón
-        borderwidth = 0                                    # Sin Borde
-
-    )
-    boton.grid(                                            # Colocar el Botón en la Cuadrícula
-
-        row = row, column = column,                        # Fila y Columna según la Lista
-        padx = 5, pady = 5                                 # Espaciado Externo (Padding)
+        master = window,                                                                                       # Ventana Principal 
+        text = text,                                                                                           # Texto del Botón
+        command = command,                                                                                     # Comando al Presionar
+        bg = color,                                                                                            # Color de Fondo
+        fg = text_color,                                                                                       # Color del Texto
+        font = ("Arial", 16, "bold"),                                                                          # Fuente
+        width = 5, height = 2,                                                                                 # Dimensiones del Botón
+        borderwidth = 0                                                                                        # Sin Borde
 
     )
+    boton.grid(row = row, column = column,padx = 5, pady = 5)                                                  # Colocar Botón en Cuadrícula
 
 
 # Peso de las Filas y Columnas para Expansión
@@ -204,9 +201,9 @@ for i in range(4): window.grid_columnconfigure(index = i, weight = 1)
 
 
 # Teclas de Atajo
-window.bind("<Return>", lambda event: calcule_result())         # Enter para Calcular
-window.bind("<Escape>", lambda event: clean_screen())           # Escape para Limpiar
-window.bind("<BackSpace>", lambda event: erase_last_char())     # Backspace para Borrar
+window.bind("<Return>", lambda event: calcule_result())                                                        # Enter para Calcular
+window.bind("<Escape>", lambda event: clean_screen())                                                          # Escape para Limpiar
+window.bind("<BackSpace>", lambda event: erase_last_char())                                                    # Backspace para Borrar
 
 
 # Bucle para Enlaze de Teclas Numéricas y Operadores

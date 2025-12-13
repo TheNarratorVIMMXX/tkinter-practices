@@ -13,7 +13,8 @@
 # -----------------------------------------------------------------------------------------------------------------------------------------
 """ ======================================================== Módulos Importados ============================================================= """
 
-import tkinter as tk                # Framework Básico para Interfaz Gráfica
+# Dependencias
+import tkinter as tk                              # Framework Básico para Interfaz Gráfica
 
 # ------------------------------------------------------------------------------------------------------------------------------------------
 """ =========================================================== Práctica 1 ================================================================ """
@@ -22,6 +23,7 @@ import tkinter as tk                # Framework Básico para Interfaz Gráfica
 window = tk.Tk()                                  # Inicialización de la Ventana Raíz 
 window.title("Práctica 1 - Ventana 1000x500")     # Título de la Ventana
 window.geometry("1000x500")                       # Tamaño de la Ventana
+
 
 # Bucle Principal de la Ventana
 window.mainloop()

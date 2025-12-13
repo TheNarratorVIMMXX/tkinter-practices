@@ -13,8 +13,9 @@
 # -----------------------------------------------------------------------------------------------------------------------------------------
 """ ======================================================== Módulos Importados ============================================================= """
 
-import tkinter as tk                # Framework Básico para Interfaz Gráfica
-
+# Dependencias
+import tkinter as tk                                                 # Framework Básico para Interfaz Gráfica
+ 
 # ------------------------------------------------------------------------------------------------------------------------------------------
 """ =========================================================== Práctica 4 ================================================================ """
 
@@ -25,7 +26,7 @@ window.title("Actividad 4 - Botón Terminal")                         # Título 
 
 
 # Configuración del Botón
-button = tk.Button(                                                   # Creación del Botón
+button = tk.Button(                                                  # Creación del Botón
     
     master = window,                                                 # Ventana Principal como Contenedor
     text = "Escribir en Terminal",                                   # Texto del Botoón
@@ -36,7 +37,8 @@ button = tk.Button(                                                   # Creació
     padx = 20, pady = 10                                             # Espaciado Interno (Padding)
 
 )
-button.pack(pady = 50)                                                # Empaquetado del Botón con Espaciado Vertical
+button.pack(pady = 50)                                               # Empaquetado del Botón con Espaciado Vertical
+
 
 # Bucle Principal de la Ventana
 window.mainloop()

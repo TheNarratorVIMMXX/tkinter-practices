@@ -13,7 +13,8 @@
 # -----------------------------------------------------------------------------------------------------------------------------------------
 """ ======================================================== Módulos Importados ============================================================= """
 
-import tkinter as tk                # Framework Básico para Interfaz Gráfica
+# Dependencias
+import tkinter as tk                         # Framework Básico para Interfaz Gráfica
 
 # ------------------------------------------------------------------------------------------------------------------------------------------
 """ =========================================================== Práctica 2 ================================================================ """
@@ -23,6 +24,7 @@ window = tk.Tk()                             # Creación de la Ventana Principal
 window.geometry("400x200")                   # Dimensiones de la Ventana
 window.title("Mi Ventana con Color")         # Título de la Ventana
 window.configure(bg = "#040505")           # Color de Fondo de la Ventana
+
 
 # Bucle Principal de la Ventana
 window.mainloop()
