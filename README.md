@@ -7,7 +7,7 @@ Este repositorio contiene una colección de **14 prácticas educativas** desarro
 ## 👨‍🎓 Información del Estudiante
 
 - **Autor:** Magallanes López Carlos Gabriel
-- **Fecha de Entrega:** 15-16 de octubre de 2025
+- **Fecha de Desarrollo:** 15-16 de octubre de 2025
 
 ---
 
