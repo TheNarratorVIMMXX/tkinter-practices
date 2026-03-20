@@ -1,6 +1,6 @@
 # 📚 Prácticas de Tkinter - GUI con Python
 
-Este repositorio contiene una colección de **14 prácticas educativas** desarrolladas con **Tkinter**, la biblioteca estándar de Python para crear interfaces gráficas de usuario (GUI)**.
+Este repositorio contiene una colección de **14 prácticas educativas** desarrolladas con **Tkinter**, la biblioteca estándar de Python para crear interfaces gráficas de usuario (GUI)**
 
 ---
 
