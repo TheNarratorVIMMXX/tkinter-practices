@@ -1,14 +1,12 @@
 # 📚 Prácticas de Tkinter - GUI con Python
 
-Este repositorio contiene una colección de **14 prácticas educativas** desarrolladas con **Tkinter**, la biblioteca estándar de Python para crear interfaces gráficas de usuario (GUI). Las prácticas fueron completadas como parte del curso de programación en el **CBTis No. 128**.
+Este repositorio contiene una colección de **14 prácticas educativas** desarrolladas con **Tkinter**, la biblioteca estándar de Python para crear interfaces gráficas de usuario (GUI)**.
 
 ---
 
 ## 👨‍🎓 Información del Estudiante
 
-- **Estudiante:** Magallanes López Carlos Gabriel
-- **Escuela:** Centro de Bachillerato Tecnológico Industrial y de Servicios No. 128
-- **Grupo:** 3° "J"
+- **Autor:** Magallanes López Carlos Gabriel
 - **Fecha de Entrega:** 15-16 de octubre de 2025
 
 ---
