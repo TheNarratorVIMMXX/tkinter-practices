@@ -1,135 +1,134 @@
-# 📚 Tkinter Practices - Python GUI
+# 📚 Prácticas de Tkinter - GUI con Python
 
-This repository contains a collection of **14 educational practices** developed with **Tkinter**, Python's standard library for creating graphical user interfaces (GUI). The practices were completed as part of the programming course at **CBTis No. 128**.
-
----
-
-## 👨‍🎓 Student Information
-
-- **Student:** Magallanes López Carlos Gabriel
-- **School:** Centro de Bachillerato Tecnológico Industrial y de Servicios No. 128
-- **Group:** 3° "J"
-- **Completion Date:** October 15-16, 2025
+Este repositorio contiene una colección de **14 prácticas educativas** desarrolladas con **Tkinter**, la biblioteca estándar de Python para crear interfaces gráficas de usuario (GUI). Las prácticas fueron completadas como parte del curso de programación en el **CBTis No. 128**.
 
 ---
 
-## 📋 Project Contents
+## 👨‍🎓 Información del Estudiante
 
-This project is a series of progressive exercises ranging from basic concepts to more complex applications with Tkinter:
-
-### 🔹 Basic Practices (1-5)
-- **Practice 1:** Basic 1000x500 window
-- **Practice 2:** Window with custom title and background color
-- **Practice 3:** Label with custom styles (font, colors, padding)
-- **Practice 4:** Button that prints messages to the terminal
-- **Practice 5:** Button that changes Label text
-
-### 🔹 Data Input and Forms (6-7)
-- **Practice 6:** Entry with button to display entered name
-- **Practice 7:** Interactive questionnaire with multiple input fields
-
-### 🔹 Organization with Frames (8-9)
-- **Practice 8:** 4-frame grid pattern (2x2) with different colors
-- **Practice 9:** Nested frames with internal button
-
-### 🔹 Advanced Interactivity (10-11)
-- **Practice 10:** Move a Label horizontally with buttons
-- **Practice 11:** Selection list (Listbox) with selected item display
-
-### 🔹 Complete Applications (12-14)
-- **Practice 12:** Simple addition calculator with error validation
-- **Practice 13:** Traffic light simulator with automatic changes and timer
-- **Practice 14:** Complete basic calculator with arithmetic operations, keyboard support, and validation
+- **Estudiante:** Magallanes López Carlos Gabriel
+- **Escuela:** Centro de Bachillerato Tecnológico Industrial y de Servicios No. 128
+- **Grupo:** 3° "J"
+- **Fecha de Entrega:** 15-16 de octubre de 2025
 
 ---
 
-## 🎯 Learning Objectives
+## 📋 Contenido del Proyecto
 
-These practices cover the following fundamental Tkinter concepts:
+Este proyecto es una serie de ejercicios progresivos que van desde conceptos básicos hasta aplicaciones más complejas con Tkinter:
 
-- ✅ Window creation and configuration (`Tk()`)
-- ✅ Basic widgets: `Label`, `Button`, `Entry`, `Listbox`, `Canvas`
-- ✅ Geometry managers: `pack()`, `grid()`, `place()`
-- ✅ Event handling with `command` and `bind()`
-- ✅ Organization with `Frame` and nested frames
-- ✅ Data input validation
-- ✅ Using timers with `after()`
-- ✅ Pop-up messages with `messagebox`
-- ✅ Advanced customization (colors, fonts, styles)
+### 🔹 Prácticas Básicas (1-5)
+- **Práctica 1:** Ventana básica de 1000x500
+- **Práctica 2:** Ventana con título personalizado y color de fondo
+- **Práctica 3:** Etiqueta con estilos personalizados (fuente, colores, relleno)
+- **Práctica 4:** Botón que imprime mensajes en la terminal
+- **Práctica 5:** Botón que cambia el texto de una etiqueta
 
----
+### 🔹 Entrada de Datos y Formularios (6-7)
+- **Práctica 6:** Campo de texto con botón para mostrar el nombre ingresado
+- **Práctica 7:** Cuestionario interactivo con múltiples campos de entrada
 
-## 🚀 Featured Highlights
+### 🔹 Organización con Marcos (8-9)
+- **Práctica 8:** Cuadrícula de 4 marcos (2x2) con diferentes colores
+- **Práctica 9:** Marcos anidados con botón interno
 
-### Practice 13: Automatic Traffic Light
-- Realistic traffic light simulation with three lights (red, yellow, green)
-- Automatic changes every 5 seconds
-- Visual timer with countdown
-- Design using `Canvas` for graphical representation
+### 🔹 Interactividad Avanzada (10-11)
+- **Práctica 10:** Mover una etiqueta horizontalmente con botones
+- **Práctica 11:** Lista de selección (Listbox) con visualización del elemento seleccionado
 
-### Practice 14: Complete Calculator
-- Basic arithmetic operations (+, -, *, /)
-- Support for parentheses and decimals
-- Keyboard shortcuts (Enter, Escape, Backspace)
-- Expression validation with error handling
-- Modern interface with differentiated colors for each button type
-- Delete and clear screen buttons
+### 🔹 Aplicaciones Completas (12-14)
+- **Práctica 12:** Calculadora de suma simple con validación de errores
+- **Práctica 13:** Simulador de semáforo con cambios automáticos y temporizador
+- **Práctica 14:** Calculadora básica completa con operaciones aritméticas, soporte de teclado y validación
 
 ---
 
-## 📦 Requirements
+## 🎯 Objetivos de Aprendizaje
+
+Estas prácticas cubren los siguientes conceptos fundamentales de Tkinter:
+
+- ✅ Creación y configuración de ventanas (`Tk()`)
+- ✅ Widgets básicos: `Label`, `Button`, `Entry`, `Listbox`, `Canvas`
+- ✅ Gestores de geometría: `pack()`, `grid()`, `place()`
+- ✅ Manejo de eventos con `command` y `bind()`
+- ✅ Organización con `Frame` y marcos anidados
+- ✅ Validación de entrada de datos
+- ✅ Uso de temporizadores con `after()`
+- ✅ Mensajes emergentes con `messagebox`
+- ✅ Personalización avanzada (colores, fuentes, estilos)
+
+---
+
+## 🚀 Aspectos Destacados
+
+### Práctica 13: Semáforo Automático
+- Simulación realista de semáforo con tres luces (rojo, amarillo, verde)
+- Cambios automáticos cada 5 segundos
+- Temporizador visual con cuenta regresiva
+- Diseño usando `Canvas` para representación gráfica
+
+### Práctica 14: Calculadora Completa
+- Operaciones aritméticas básicas (+, -, *, /)
+- Soporte para paréntesis y decimales
+- Atajos de teclado (Enter, Escape, Retroceso)
+- Validación de expresiones con manejo de errores
+- Interfaz moderna con colores diferenciados para cada tipo de botón
+- Botones para borrar y limpiar pantalla
+
+---
+
+## 📦 Requisitos
 
 ```bash
 Python 3.x
-tkinter (included in standard Python installations)
+tkinter (incluido en las instalaciones estándar de Python)
 ```
 
 ---
 
-## ▶️ How to Run
+## ▶️ Cómo Ejecutar
 
-1. Clone this repository:
+1. Clona este repositorio:
 ```bash
-git clone https://github.com/yourusername/tkinter-practices.git
+git clone https://github.com/tuusuario/tkinter-practices.git
 cd tkinter-practices
 ```
 
-2. Run any practice directly:
+2. Ejecuta cualquier práctica directamente:
 ```bash
-python practice_01.py
-python practice_14.py  # Complete calculator
+python practica_01.py
+python practica_14.py  # Calculadora completa
 ```
 ---
 
-## 📚 Key Concepts Learned
+## 📚 Conceptos Clave Aprendidos
 
-1. **Layout Management**: Differences between `pack()`, `grid()`, and `place()`
-2. **Event-Driven Programming**: Event handling with callbacks
-3. **Data Validation**: Using `try-except` blocks for user input
-4. **Global State**: Managing global variables to maintain state
-5. **Timers and Animation**: Using `after()` for temporal operations
-6. **Best Practices**: Documentation, descriptive names, logic separation
-
----
-
-## 📄 License
-
-This project is educational in nature and is available for free use for learning purposes.
+1. **Gestión de Diseño**: Diferencias entre `pack()`, `grid()` y `place()`
+2. **Programación Orientada a Eventos**: Manejo de eventos con callbacks
+3. **Validación de Datos**: Uso de bloques `try-except` para la entrada del usuario
+4. **Estado Global**: Manejo de variables globales para mantener el estado
+5. **Temporizadores y Animación**: Uso de `after()` para operaciones temporales
+6. **Buenas Prácticas**: Documentación, nombres descriptivos, separación de lógica
 
 ---
 
-## 🤝 Contributions
+## 📄 Licencia
 
-If you're a student and want to add more practices or improve existing ones, contributions are welcome!
-
----
-
-# 📧 Contact
-
-- **Author:** Carlos Gabriel Magallanes López
-- **Email:** cgmagallanes23@gmail.com
-- **School:** CBTis No. 128
+Este proyecto es de carácter educativo y está disponible para uso libre con fines de aprendizaje.
 
 ---
 
-**⭐ If this repository was helpful, don't forget to give it a star on GitHub!**
+## 🤝 Contribuciones
+
+Si eres estudiante y deseas agregar más prácticas o mejorar las existentes, ¡las contribuciones son bienvenidas!
+
+---
+
+## 📧 Contacto
+
+- **Autor:** Carlos Gabriel Magallanes López
+- **Correo:** cgmagallanes23@gmail.com
+
+---
+
+**⭐ ¡Si este repositorio te fue de utilidad, no olvides darle una estrella en GitHub!**
