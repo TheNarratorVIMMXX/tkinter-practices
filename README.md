@@ -4,13 +4,6 @@ Este repositorio contiene una colección de **14 prácticas educativas** desarro
 
 ---
 
-## 👨‍🎓 Información del Estudiante
-
-- **Autor:** Magallanes López Carlos Gabriel
-- **Fecha de Desarrollo:** 15-16 de octubre de 2025
-
----
-
 ## 📋 Contenido del Proyecto
 
 Este proyecto es una serie de ejercicios progresivos que van desde conceptos básicos hasta aplicaciones más complejas con Tkinter:
@@ -118,7 +111,7 @@ Este proyecto es de carácter educativo y está disponible para uso libre con fi
 
 ## 🤝 Contribuciones
 
-Si eres estudiante y deseas agregar más prácticas o mejorar las existentes, ¡las contribuciones son bienvenidas!
+Si deseas agregar más prácticas o mejorar las existentes, ¡las contribuciones son bienvenidas!
 
 ---
 
@@ -126,6 +119,7 @@ Si eres estudiante y deseas agregar más prácticas o mejorar las existentes, ¡
 
 - **Autor:** Carlos Gabriel Magallanes López
 - **Correo:** cgmagallanes23@gmail.com
+- **Fecha de Desarrollo:** 15-16 de octubre de 2025
 
 ---
 
