@@ -100,6 +100,17 @@ python practica_14.py  # Calculadora completa
 4. **Estado Global**: Manejo de variables globales para mantener el estado
 5. **Temporizadores y Animación**: Uso de `after()` para operaciones temporales
 6. **Buenas Prácticas**: Documentación, nombres descriptivos, separación de lógica
+--
+
+## 🧠 Desarrollo asistido
+
+La página web de presentación de este repositorio fue desarrollada con apoyo de inteligencia artificial, utilizada como herramienta para:
+
+- Consulta de sintaxis de HTML, CSS y JavaScript
+- Generación de ideas de diseño e interfaz
+- Optimización de estilos y estructura visual
+
+Todo el código fue revisado, comprendido y modificado manualmente.
 
 ---
 
