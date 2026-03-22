@@ -103,15 +103,14 @@ python practica_14.py  # Calculadora completa
 
 ---
 
-## 🧠 Desarrollo asistido
+## 🧠 Desarrollo asistido por IA
+La página web de este proyecto fue desarrollada mientras aprendo desarrollo Frontend,
+apoyándome en herramientas de inteligencia artificial como parte del proceso de aprendizaje:
+- **Claude (Anthropic):** apoyo en la estructura general y diseño visual de la página
+- **ChatGPT (OpenAI):** resolución de dudas puntuales de sintaxis en HTML, CSS y JavaScript
 
-La página web de presentación de este repositorio fue desarrollada con apoyo de inteligencia artificial, utilizada como herramienta para:
-
-- Consulta de sintaxis de HTML, CSS y JavaScript
-- Generación de ideas de diseño e interfaz
-- Optimización de estilos y estructura visual
-
-Todo el código fue revisado, comprendido y modificado manualmente.
+Todo el código fue leído, comprendido y ajustado manualmente,
+usando la IA como guía y no como reemplazo del aprendizaje.
 
 ---
 
