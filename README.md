@@ -100,7 +100,8 @@ python practica_14.py  # Calculadora completa
 4. **Estado Global**: Manejo de variables globales para mantener el estado
 5. **Temporizadores y Animación**: Uso de `after()` para operaciones temporales
 6. **Buenas Prácticas**: Documentación, nombres descriptivos, separación de lógica
---
+
+---
 
 ## 🧠 Desarrollo asistido
 
