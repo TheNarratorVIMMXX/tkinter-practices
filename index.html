@@ -1,10 +1,10 @@
 <!-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
 <!-- DOCUMENTACIÓN -->
 <!-- Vista para el Proyecto Tkinter -->
-<!-- Ultima Modificación: 20/03/2026 -->
+<!-- Ultima Modificación: 05/05/2026 -->
 <!-- Autor: Magallanes López Carlos Gabriel -->
 <!-- Correo: cgmagallanes23@gmail.com -->
-<!-- Versión: 1.1 -->
+<!-- Versión: 1.2 -->
 <!-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
 
 <!DOCTYPE html>
@@ -23,7 +23,7 @@
     <nav>
         <div class="nav-container">
             <a href="../index.html" class="nav-logo">TheNarratorDev</a>
-            <a href="https://github.com/TheNarratorVIMMXX" class="back-btn">← Volver a Proyectos</a>
+            <a href="https://github.com/TheNarratorVIMMXX" class="back-btn" data-i18n="backBtn">← Volver a Proyectos</a>
         </div>
     </nav>
 
@@ -32,7 +32,7 @@
         <!-- Encabezado del Proyecto -->
         <div class="project-header">
             <h1>Python Tkinter</h1>
-            <p>Prácticas de Interfaz Gráfica de Usuario (GUI) desarrollados en Python utilizando la biblioteca nativa Tkinter</p>
+            <p data-i18n="projectDesc">Prácticas de Interfaz Gráfica de Usuario (GUI) desarrollados en Python utilizando la biblioteca nativa Tkinter</p>
 
             <div class="project-tags">
                 <span class="tag">Python</span>
@@ -41,59 +41,59 @@
             </div>
 
             <div class="project-links">
-                <a href="https://github.com/TheNarratorVIMMXX/PythonTkinter" target="_blank">Ver en GitHub</a>
+                <a href="https://github.com/TheNarratorVIMMXX/PythonTkinter" target="_blank" data-i18n="githubBtn">Ver en GitHub</a>
             </div>
         
         </div>
 
         <!-- Descripción General -->
         <div class="content-section">
-            <h2>📖 Descripción General</h2>
+            <h2 data-i18n="overviewTitle">📖 Descripción General</h2>
             
-            <p>
+            <p data-i18n="overviewText">
                 Este proyecto contiene una colección de 14 prácticas educativas desarrolladas con Tkinter,
                 la biblioteca nativa de Python para crear Interfaces Gráficas de Usuario (GUI).
                 Estas prácticas cubren los siguientes conceptos fundamentales de Tkinter:
             </p>
 
             <ul>
-                <li>Creación y configuración de ventanas (Tk())</li>
-                <li>Widgets básicos: Label, Button, Entry, Listbox, Canvas</li>
-                <li>Gestores de geometría: pack(), grid(), place()</li>
-                <li>Manejo de eventos con command y bind()</li>
-                <li>Organización con frame y marcos anidados</li>
-                <li>Validación de entrada de datos</li>
-                <li>Uso de temporizadores con after()</li>
-                <li>Mensajes emergentes con Messagebox</li>
-                <li>Personalización avanzada (colores, fuentes, estilos)</li>
+                <li data-i18n="li1">Creación y configuración de ventanas (Tk())</li>
+                <li data-i18n="li2">Widgets básicos: Label, Button, Entry, Listbox, Canvas</li>
+                <li data-i18n="li3">Gestores de geometría: pack(), grid(), place()</li>
+                <li data-i18n="li4">Manejo de eventos con command y bind()</li>
+                <li data-i18n="li5">Organización con frame y marcos anidados</li>
+                <li data-i18n="li6">Validación de entrada de datos</li>
+                <li data-i18n="li7">Uso de temporizadores con after()</li>
+                <li data-i18n="li8">Mensajes emergentes con Messagebox</li>
+                <li data-i18n="li9">Personalización avanzada (colores, fuentes, estilos)</li>
             </ul>
         
         </div>
 
         <!-- Características Principales -->
         <div class="content-section">
-            <h2>✨ Características Principales</h2>
+            <h2 data-i18n="featuresTitle">✨ Características Principales</h2>
 
             <div class="features-grid">
 
                 <div class="feature-card">
-                    <h4>🎯 Widgets</h4>
-                    <p>Uso de botones, labels, listbox, entries y más elementos nativos de Tkinter</p>
+                    <h4 data-i18n="feat1Title">🎯 Widgets</h4>
+                    <p data-i18n="feat1Desc">Uso de botones, labels, listbox, entries y más elementos nativos de Tkinter</p>
                 </div>
 
                 <div class="feature-card">
-                    <h4>⚡ Layouts & Grid</h4>
-                    <p>Organización de interfaces usando el sistema de grid y frames para estructurar ventanas</p>
+                    <h4 data-i18n="feat2Title">⚡ Layouts & Grid</h4>
+                    <p data-i18n="feat2Desc">Organización de interfaces usando el sistema de grid y frames para estructurar ventanas</p>
                 </div>
 
                 <div class="feature-card">
-                    <h4>🚀 Interactividad</h4>
-                    <p>Manejo de eventos, acciones de usuario y respuestas dinámicas dentro de las ventanas</p>
+                    <h4 data-i18n="feat3Title">🚀 Interactividad</h4>
+                    <p data-i18n="feat3Desc">Manejo de eventos, acciones de usuario y respuestas dinámicas dentro de las ventanas</p>
                 </div>
 
                 <div class="feature-card">
-                    <h4>💡 Diseño de Interfaz</h4>
-                    <p>Principios de UX/UI aplicados a ventanas de escritorio con estilos y configuraciones visuales</p>
+                    <h4 data-i18n="feat4Title">💡 Diseño de Interfaz</h4>
+                    <p data-i18n="feat4Desc">Principios de UX/UI aplicados a ventanas de escritorio con estilos y configuraciones visuales</p>
                 </div>
 
             </div>
@@ -102,55 +102,49 @@
 
         <!-- Cómo Usar -->
         <div class="content-section">
-            <h2>🚀 Cómo Usar</h2>
+            <h2 data-i18n="howToUseTitle">🚀 Cómo Usar</h2>
 
-            <h3>Instalación</h3>
+            <h3 data-i18n="installTitle">Instalación</h3>
 
             <pre><code>
-                # Clonar el repositorio
                 git clone https://github.com/TheNarratorVIMMXX/PythonTkinter.git
 
-                # Navegar al directorio del proyecto
                 cd PythonTkinter
 
-                # Ejecutar la Práctica deseada (ejemplo: P1.py)
                 python P1.py
             </code></pre>
 
-            <h3>Uso Básico</h3>
-            <p>Cada práctica es un script independiente, para ejecutar cualquiera:</p>
+            <h3 data-i18n="basicUseTitle">Uso Básico</h3>
+            <p data-i18n="basicUseDesc">Cada práctica es un script independiente, para ejecutar cualquiera:</p>
 
             <ol>
-                <li>Asegúrate de tener <code>Python 3.11</code> instalado en tu sistema</li>
-                <li>Tkinter viene incluido con Python, <strong>no necesitas instalar dependencias extra</strong></li>
-                <li>
-                    Navega a la carpeta del proyecto y ejecuta la práctica deseada:
-                    <pre><code>python P1.py</code></pre>
-                </li>
-                <li>Se abrirá una ventana gráfica con la interfaz de esa práctica</li>
-                <li>Cierra la ventana para terminar la ejecución</li>
+                <li data-i18n="step1">Asegúrate de tener <code>Python 3.11</code> instalado en tu sistema</li>
+                <li data-i18n="step2">Tkinter viene incluido con Python, no necesitas instalar dependencias extra</li>
+                <li data-i18n="step3">Navega a la carpeta del proyecto y ejecuta la práctica deseada</li>
+                <li data-i18n="step4">Se abrirá una ventana gráfica con la interfaz de esa práctica</li>
+                <li data-i18n="step5">Cierra la ventana para terminar la ejecución</li>
             </ol>
         </div>
 
         <!-- Screenshots -->
         <div class="content-section">
-            <h2>📸 Capturas de Pantalla</h2>
+            <h2 data-i18n="screenshotsTitle">📸 Capturas de Pantalla</h2>
 
             <div class="screenshots">
                 
                 <div class="screenshot">
                     <img src="imgs/P7.png" alt="Práctica 7">
-                    <p>P7 - Cuestionario</p>
+                    <p data-i18n="shot1">P7 - Cuestionario</p>
                 </div>
 
                 <div class="screenshot">
                     <img src="imgs/P13.png" alt="Práctica 13">
-                    <p>P13 - Semáforo</p>
+                    <p data-i18n="shot2">P13 - Semáforo</p>
                 </div>
 
                 <div class="screenshot">
                     <img src="imgs/P14.png" alt="Práctica 14">
-                    <p>P14 - Calculadora</p>
+                    <p data-i18n="shot3">P14 - Calculadora</p>
                 </div>
             
             </div>
@@ -159,34 +153,34 @@
 
         <!-- Tecnologías Utilizadas -->
         <div class="content-section">
-            <h2>🛠️ Tecnologías Utilizadas</h2>
+            <h2 data-i18n="techTitle">🛠️ Tecnologías Utilizadas</h2>
 
             <ul>
-                <li><strong>Python 3.11</strong> - Lenguaje de Programación</li>
-                <li><strong>Tkinter</strong> - Biblioteca para crear Interfaces Gráficas de Usuario (GUI)</li>
-                <li><strong>Visual Studio Code</strong> - Entorno de Desarrollo (IDE)</li>
+                <li data-i18n="tech1">Python 3.11 - Lenguaje de Programación</li>
+                <li data-i18n="tech2">Tkinter - Biblioteca para crear Interfaces Gráficas de Usuario (GUI)</li>
+                <li data-i18n="tech3">Visual Studio Code - Entorno de Desarrollo (IDE)</li>
             </ul>
         
         </div>
 
         <!-- Licencia -->
         <div class="content-section">
-            <h2>📄 Licencia</h2>
+            <h2 data-i18n="licenseTitle">📄 Licencia</h2>
         
-            <p>
-                Este proyecto está bajo la Licencia MIT. Consulta el archivo <code>LICENSE</code> para más detalles.
+            <p data-i18n="licenseText">
+                Este proyecto está bajo la Licencia MIT. Consulta el archivo LICENSE para más detalles.
             </p>
         
         </div>
 
         <!-- Contacto -->
         <div class="content-section">
-            <h2>📧 Contacto</h2>
-            <p>Si tienes preguntas o sugerencias sobre este proyecto, contáctame:</p>
+            <h2 data-i18n="contactTitle">📧 Contacto</h2>
+            <p data-i18n="contactDesc">Si tienes preguntas o sugerencias sobre este proyecto, contáctame:</p>
 
             <ul>
                 <li><strong>GitHub:</strong> <a href="https://github.com/TheNarratorVIMMXX" target="_blank" style="color: #fff3b0;">@TheNarratorVIMMXX</a></li>
-                <li><strong>Email:</strong> <a href="https://mailto:cgmagallanes23@gmail.com" style="color: #fff3b0;">cgmagallanes23@gmail.com</a></li>
+                <li><strong>Email:</strong> <a href="mailto:cgmagallanes23@gmail.com" style="color: #fff3b0;">cgmagallanes23@gmail.com</a></li>
                 <li><strong>LinkedIn:</strong> <a href="https://linkedin.com/in/carlos-gabriel-magallanes-lopez-940179398" target="_blank" style="color: #fff3b0;">Carlos Gabriel Magallanes López</a></li>
             </ul>
         
@@ -194,7 +188,7 @@
 
         <!-- Pie de Página -->
         <footer>
-            <p>&copy; 2026 TheNarratorDev. Todos los derechos reservados.</p>
+            <p data-i18n="footer">&copy; 2026 TheNarratorDev. Todos los derechos reservados.</p>
         </footer>
 
     </div>
