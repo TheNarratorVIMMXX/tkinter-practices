@@ -13,11 +13,15 @@ This repository contains a collection of **14 educational exercises** developed 
 
 ## 🎬 Preview
 
+<div align="center">
+
 ### 🚦 Automatic Traffic Light - Practice 13
 ![Semaforo](assets/semaforo.gif)
 
 ### 🧮 Full Calculator - Practice 14
 ![Calculadora](assets/calculadora.gif)
+
+</div>
 
 ---
 
