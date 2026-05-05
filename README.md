@@ -1,3 +1,6 @@
+
+[![es](https://img.shields.io/badge/lang-es-red.svg)](README.es.md)
+
 # 📚 Tkinter Practices - GUI with Python
 
 ![Python](https://img.shields.io/badge/Python-3.x-blue?style=for-the-badge&logo=python&logoColor=white)
