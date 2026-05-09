@@ -3,7 +3,7 @@
 
 # 📚 Tkinter Practices - GUI with Python
 
-![Python](https://img.shields.io/badge/Python-3.x-blue?style=for-the-badge&logo=python&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3.13-blue?style=for-the-badge&logo=python&logoColor=white)
 ![Tkinter](https://img.shields.io/badge/Tkinter-GUI-green?style=for-the-badge&logo=python&logoColor=white)
 ![License](https://img.shields.io/badge/License-Educational-orange?style=for-the-badge)
 ![Practices](https://img.shields.io/badge/Practices-14-purple?style=for-the-badge)
