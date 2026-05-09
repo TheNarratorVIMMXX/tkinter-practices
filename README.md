@@ -17,10 +17,10 @@ This repository contains a collection of **14 educational exercises** developed 
 <div align="center">
 
 ### 🚦 Automatic Traffic Light - Practice 13
-![Semaforo](assets/semaforo.gif)
+![Semaforo](assets/gifs/traffic_light.gif)
 
 ### 🧮 Full Calculator - Practice 14
-![Calculadora](assets/calculadora.gif)
+![Calculadora](assets/gifs/calculator.gif)
 
 </div>
 
