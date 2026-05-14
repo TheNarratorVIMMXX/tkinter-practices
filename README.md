@@ -5,7 +5,7 @@
 
 ![Python](https://img.shields.io/badge/Python-3.13-blue?style=for-the-badge&logo=python&logoColor=white)
 ![Tkinter](https://img.shields.io/badge/Tkinter-GUI-green?style=for-the-badge&logo=python&logoColor=white)
-![License](https://img.shields.io/badge/License-Educational-orange?style=for-the-badge)
+![License](https://img.shields.io/badge/License-MIT-orange?style=for-the-badge)
 ![Practices](https://img.shields.io/badge/Practices-14-purple?style=for-the-badge)
 
 This repository contains a collection of **14 educational exercises** developed with **Tkinter**, Python's standard library for creating graphical user interfaces (GUI).
@@ -128,7 +128,7 @@ python practica_14.py  # Full calculator
 
 ## 📄 License
 
-This project is educational and available for free use for learning purposes.
+This project is educational and available for free use for learning purposes. Allows anyone to use, study, modify, and share the software freely.
 
 ---
 
