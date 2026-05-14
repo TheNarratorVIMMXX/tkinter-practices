@@ -17,10 +17,10 @@ Este repositorio contiene una colección de **14 prácticas educativas** desarro
 ## 🎬 Vista Previa
 
 ### 🚦 Semáforo Automático - Práctica 13
-![Semaforo](assets/gifs/semaforo.gif)
+![Semaforo](assets/gifs/traffic_light.gif)
 
 ### 🧮 Calculadora Completa - Práctica 14
-![Calculadora](assets/gifs/calculadora.gif)
+![Calculadora](assets/gifs/calculator.gif)
 
 </div>
 
