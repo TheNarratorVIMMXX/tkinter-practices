@@ -5,7 +5,7 @@
 
 ![Python](https://img.shields.io/badge/Python-3.x-blue?style=for-the-badge&logo=python&logoColor=white)
 ![Tkinter](https://img.shields.io/badge/Tkinter-GUI-green?style=for-the-badge&logo=python&logoColor=white)
-![Licencia](https://img.shields.io/badge/Licencia-Educativa-orange?style=for-the-badge)
+![Licencia](https://img.shields.io/badge/Licencia-MIT-orange?style=for-the-badge)
 ![Prácticas](https://img.shields.io/badge/Prácticas-14-purple?style=for-the-badge)
 
 Este repositorio contiene una colección de **14 prácticas educativas** desarrolladas con **Tkinter**, la biblioteca estándar de Python para crear interfaces gráficas de usuario (GUI).
@@ -17,10 +17,10 @@ Este repositorio contiene una colección de **14 prácticas educativas** desarro
 ## 🎬 Vista Previa
 
 ### 🚦 Semáforo Automático - Práctica 13
-![Semaforo](assets/semaforo.gif)
+![Semaforo](assets/gifs/semaforo.gif)
 
 ### 🧮 Calculadora Completa - Práctica 14
-![Calculadora](assets/calculadora.gif)
+![Calculadora](assets/gifs/calculadora.gif)
 
 </div>
 
@@ -128,7 +128,7 @@ python practica_14.py  # Calculadora completa
 
 ## 📄 Licencia
 
-Este proyecto es de carácter educativo y está disponible para uso libre con fines de aprendizaje.
+Este proyecto es de carácter educativo y está disponible para uso libre con fines de aprendizaje. Permite que cualquier persona use, estudie, modifique y comparta el software libremente
 
 ---
 
